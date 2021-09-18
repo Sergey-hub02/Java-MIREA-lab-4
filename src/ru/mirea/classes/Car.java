@@ -28,6 +28,7 @@ public class Car implements Nameable {
    * Геттер для поля name
    * @return      название машины
    */
+  @Override
   public String getName() {
     return this.name;
   }
